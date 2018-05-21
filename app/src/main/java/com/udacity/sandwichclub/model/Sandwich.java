@@ -3,6 +3,13 @@ package com.udacity.sandwichclub.model;
 import java.util.List;
 
 public class Sandwich {
+    public static final String NAME_KEY = "name";
+    public static final String MAIN_NAME_KEY = "mainName";
+    public static final String ALSO_KNOWN_AS_KEY = "alsoKnownAs";
+    public static final String PLACE_OF_ORIGIN_KEY = "placeOfOrigin";
+    public static final String DESCRIPTION_KEY = "description";
+    public static final String IMAGE_KEY = "image";
+    public static final String INGREDIENTS_KEY = "ingredients";
 
     private String mainName;
     private List<String> alsoKnownAs = null;
